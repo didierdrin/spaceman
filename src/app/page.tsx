@@ -16,20 +16,20 @@ const ProducersSection = () => (
       <h2 className="text-3xl font-bold mb-2">Spaceman Studio</h2>
       <p className="text-xl text-gray-600 mb-8">For producers - Your music business</p>
       <div className="grid grid-cols-3 gap-8 mb-8">
-        <div className="p-6 bg-white rounded-lg shadow-sm">
+        <div className="p-6 bg-white rounded-sm shadow-sm">
           <h3 className="font-semibold text-lg mb-4">Manage your business</h3>
           <p className="text-gray-600">Upload, price, and organize your beats with ease</p>
         </div>
-        <div className="p-6 bg-white rounded-lg shadow-sm">
+        <div className="p-6 bg-white rounded-sm shadow-sm">
           <h3 className="font-semibold text-lg mb-4">Track your performance</h3>
           <p className="text-gray-600">Get insights into your sales and audience engagement</p>
         </div>
-        <div className="p-6 bg-white rounded-lg shadow-sm">
+        <div className="p-6 bg-white rounded-sm shadow-sm">
           <h3 className="font-semibold text-lg mb-4">Grow your audience</h3>
           <p className="text-gray-600">Connect with artists and expand your reach</p>
         </div>
       </div>
-      <button className="px-8 py-3 bg-orange-600 text-white rounded-full hover:bg-orange-700">
+      <button className="px-8 py-3 bg-orange-600 text-white rounded-sm hover:bg-orange-700">
         Get Started
       </button>
     </div>

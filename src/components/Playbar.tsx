@@ -66,7 +66,7 @@ const PlayBar = ({ currentBeat }: PlayBarProps) => {
             <span className="text-gray-600">
               {formatTime(currentTime)} / {formatTime(currentBeat.duration)}
             </span>
-            <button className="px-6 py-2 bg-orange-600 text-white rounded-full hover:bg-orange-700">
+            <button className="px-6 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700">
               Buy Now ${currentBeat.price}
             </button>
           </div>
@@ -95,7 +95,7 @@ export default PlayBar;
 //         </div>
 //         <div className="flex items-center gap-4">
 //           <span className="text-gray-600">0:00 / 2:30</span>
-//           <button className="px-6 py-2 bg-orange-600 text-white rounded-full hover:bg-orange-700">
+//           <button className="px-6 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700">
 //             Buy Now $29.99
 //           </button>
 //         </div>

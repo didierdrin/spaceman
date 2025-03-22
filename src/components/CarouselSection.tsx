@@ -36,10 +36,10 @@ const CarouselSection = () => {
               <img
                 src={beats[currentIndex].imageUrl || "/placeholder-image.jpg"}
                 alt={beats[currentIndex].title}
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-sm"
               />
               {/* Dark overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-40 rounded-sm"></div>
               <div className="absolute bottom-8 left-8 bg-white bg-opacity-75 p-4 rounded-md shadow-md">
                 <h3 className="font-semibold text-2xl mb-2">
                   {beats[currentIndex].title}
@@ -70,7 +70,7 @@ export default CarouselSection;
             //   <img
             //     src={beats[currentIndex].imageUrl || '/placeholder-image.jpg'}
             //     alt={beats[currentIndex].title}
-            //     className="w-full h-full object-cover rounded-lg"
+            //     className="w-full h-full object-cover rounded-sm"
             //   />
             //   <div className="absolute bottom-8 left-8 bg-white bg-opacity-75 p-4 rounded-md shadow-md">
             //     <h3 className="font-semibold text-2xl mb-2">{beats[currentIndex].title}</h3>
@@ -108,12 +108,12 @@ export default CarouselSection;
 //         <div className="flex gap-4 flex-wrap mb-8">
 //           {beats.length > 0 ? (
 //             beats.map((beat) => (
-//               <div key={beat.id} className="bg-white rounded-lg shadow-md p-4">
+//               <div key={beat.id} className="bg-white rounded-sm shadow-md p-4">
 //                 {beat.imageUrl && (
 //                   <img
 //                     src={beat.imageUrl}
 //                     alt={beat.title}
-//                     className="w-full h-48 object-cover rounded-lg mb-4"
+//                     className="w-full h-48 object-cover rounded-sm mb-4"
 //                   />
 //                 )}
 //                 <h3 className="font-semibold text-lg">{beat.title}</h3>

@@ -18,7 +18,7 @@ const TrendingSection = ({ onPlayBeat }: { onPlayBeat: (beat: Beat) => void }) =
         <div className="flex gap-6 overflow-x-auto pb-4">
           {trendingBeats.map((beat) => (
             <div key={beat.id} className="flex-none w-64">
-              <div className="h-[320px] bg-white rounded-lg shadow-md">
+              <div className="h-[320px] bg-white rounded-sm shadow-md">
                 <div className="h-[150px] bg-orange-100 rounded-t-lg">
                   {beat.imageUrl && (
                     <img 
@@ -32,7 +32,7 @@ const TrendingSection = ({ onPlayBeat }: { onPlayBeat: (beat: Beat) => void }) =
                   <h3 className="font-semibold text-lg mb-1">{beat.title}</h3>
                   <p className="text-gray-600 mb-4">{beat.producerName}</p>
                   <div className="flex justify-between items-center">
-                    <button className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white rounded-full hover:bg-orange-700">
+                    <button className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700">
                       <ShoppingCart className="h-4 w-4" />
                       ${beat.price}
                     </button>

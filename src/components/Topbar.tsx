@@ -11,14 +11,14 @@ const TopBar = () => (
             <input
               type="text"
               placeholder="Search beats..."
-              className="w-full pl-10 pr-4 py-2 border rounded-full bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-600"
+              className="w-full pl-10 pr-4 py-2 border rounded-md bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-600"
             />
           </div>
         </div>
         <div className="flex items-center gap-4">
           <button className="px-4 py-2 text-gray-600 hover:text-gray-900">Sign in</button>
           <button className="px-4 py-2 text-gray-600 hover:text-gray-900">Sign up</button>
-          <button className="px-4 py-2 bg-orange-600 text-white rounded-full hover:bg-orange-700">
+          <button className="px-4 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700">
             Start Selling
           </button>
           <button className="p-2 text-gray-600 hover:text-gray-900">
